@@ -1,0 +1,16 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["graphql", "apollo-server", "learning-project"],
+  "author": "Vaibhav",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^5.5.1",
+    "graphql": "^16.14.2"
+  }
+}

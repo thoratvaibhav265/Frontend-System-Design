@@ -1,0 +1,10 @@
+# node_modules folder ko IGNORE karo — ye lakhon files ka heavy folder hota hai
+# jo npm install se khud-ba-khud ban jaata hai, isliye GitHub pe push karne
+# ki zaroorat NAHI — jo bhi clone karega, wo "npm install" chalake ise khud bana lega
+node_modules/
+
+# Log files bhi ignore karo (jaise humne testing ke liye banayi thi)
+*.log
+
+# OS/editor ki apni junk files (Mac/Windows automatically banati hain)
+.DS_Store
